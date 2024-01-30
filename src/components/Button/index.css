@@ -1,0 +1,16 @@
+.containerButton {
+    background-color: #6d4ecc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .containerButton:hover {
+    background-color: #6d4ecca1;
+  }
+  
+  p {
+    margin: 0;
+  }
