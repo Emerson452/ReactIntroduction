@@ -1,6 +1,6 @@
 import "./index.css"
 import React from "react"
-import { Button } from "../../Button"
+import Button from "../../Button"
 
 export const Cover = ({ showedit = true, background }) => {
 
@@ -13,7 +13,7 @@ export const Cover = ({ showedit = true, background }) => {
             ></img>
             {showedit && 
             <div className="edit">
-                <Button label="edit"/>
+                <Button.Primary label="edit"/>
             </div>}
         </div>
     )

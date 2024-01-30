@@ -1,5 +1,5 @@
-.containerButton {
-    background-color: #6d4ecc;
+.buttonSecondary {
+    background-color: #4e95cc;
     color: #fff;
     border: none;
     padding: 10px 20px; 
@@ -7,10 +7,12 @@
     transition: background-color 0.3s ease; 
   }
   
-  .containerButton:hover {
-    background-color: #6d4ecca1;
+  .buttonSecondary:hover {
+    background-color: #4e8bcca1;
   }
   
   p {
     margin: 0;
   }
+
+  

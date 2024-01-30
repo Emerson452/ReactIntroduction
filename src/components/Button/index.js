@@ -1,9 +1,14 @@
-import "./index.css"
+import { Primary } from "./Primary";
+import { Secondary } from "./Secondary";
 
-export const Button = ({label, onClick}) => {
+const Button = ({children, action}) => {
   return (
-    <button className="containerButton" onClick={onClick}>
-      <p>{label}</p>
-    </button>
+    <div onClick={action}>
+      {children}
+    </div>
   );
 };
+ Button.Primary = Primary;
+ Button.Secondary = Secondary;
+
+ export default Button;

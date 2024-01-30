@@ -1,12 +1,12 @@
-import { Button } from "../../components/Button"
+import  Button  from "../../components/Button"
 
 const Panier = () => {
 
     return (
         <div>
             <h2>Panier</h2>
-            <Button label="Clique"></Button>
-            <Button label="Clique ici"></Button>
+            <Button.Primary label="Clique"/>
+            <Button.Primary label="Clique ici"/>
         </div>
     )
 }
